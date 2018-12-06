@@ -1,0 +1,19 @@
+ OBSERVER DESIGN PATTERN
+ =====================================
+ As name suggest it’s used to observe things.
+ Observer design pattern in Java is a fundamental core Java pattern where Observer watch for any change in state
+ or property of Subject.
+ For Example : - Company updates all its shareholders for any decision they make, 
+ here Company is Subject and Shareholders are Observers, 
+ any change in policy of company and Company notifies all its Shareholders or Observer
+ 
+ This is beautiful pattern and used heavily along with Model View Controller Design pattern where change in model is propagated to view,
+ so that it can render it with modified information.
+ 
+ Advantage of Observer Design Pattern in Java: 
+ ===============================================
+Main advantage is loose coupling between objects called observer and observable. 
+The subject only know the list of observers it don’t care about how they have their implementation.
+All the observers are notified by subject in a single event call as Broadcast communication
+
+
